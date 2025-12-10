@@ -1,6 +1,6 @@
-//console.log(process.env.LESS)
+console.log(process.env)
 
-//const {SHELL,LOGNAME,COLORTERM} = process.env;
+const {PROMPT,COLORTERM} = process.env;
 // const superHeroes = ['Batman','Flash',5];
 
 // const [a,b,c]= superHeroes;
@@ -14,6 +14,6 @@
 const {SHELL} = process.env;
 const cosas = ["pelota","carro","cuadro"]
 const [g,f,h] = cosas;
-console.table({SHELL});
+console.table({PROMPT,COLORTERM});
 
 console.table({g,f});
