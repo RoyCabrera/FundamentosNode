@@ -1,0 +1,7 @@
+{
+    "github.copilot.chat.agent.autoFix": true,
+    "github.copilot.chat.alternateGeminiModelFPrompt.enabled": true,
+    "github.copilot.chat.alternateGptPrompt.enabled": true,
+    "github.copilot.chat.customAgents.showOrganizationAndEnterpriseAgents": true,
+    "github.copilot.chat.generateTests.codeLens": true
+}
